@@ -1,0 +1,39 @@
+{
+  "name": "@deian/simple-hooks",
+  "version": "0.0.1",
+  "description": "Hooks-like library for espectro",
+  "author": "Deian Stefan",
+  "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/deian/simple-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deian/simple-hooks/issues"
+  },
+  "homepage": "https://github.com/deian/simple-hooks",
+  "keywords": [
+    "hooks",
+    "policy"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "mocha": "./node_modules/.bin/mocha -gc -R xunit > mocha.xml; true",
+    "jshint": "./node_modules/.bin/jshint --reporter checkstyle > jshint.xml; true",
+    "jscs": "./node_modules/.bin/jscs --esnext --reporter checkstyle *.js test/*.js > jscs.xml; true"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "dirty-chai": "^1.2.1",
+    "gulp": "^3.9.0",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "debug": "^2.1.3"
+  }
+}
