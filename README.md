@@ -6,7 +6,7 @@ before and after a given function.
 ### Security policy:
 
 ```javascript
-var hook = require('@deian/simple-hooks');
+var hook = require('simple-hooks');
 var fs   = require('fs');
 
 var readFileSync = hook(fs.readFileSync);
@@ -35,7 +35,7 @@ console.log(readFileSync('./hello-world', 'utf8'));
 ### Security policy:
 
 ```javascript
-var hook = require('@deian/simple-hooks');
+var hook = require('simple-hooks');
 var fs   = require('fs');
 
 var readFile = hook(fs.readFile);

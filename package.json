@@ -1,5 +1,5 @@
 {
-  "name": "@deian/simple-hooks",
+  "name": "simple-hooks",
   "version": "0.0.1",
   "description": "Hooks-like library for espectro",
   "author": "Deian Stefan",
